@@ -14,8 +14,50 @@
 
 body {
    font-family: "Overpass", sans-serif;
+   background-color: black;
 }
 
 body p {
-   font-size: 15px;
+   font-size: 14px;
+   color: var(--light-grey);
+}
+
+main {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.rating__card {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   width: 327px;
+   padding: 24px;
+   background-color: var(--very-dark-blue);
+   border-radius: 15px;
+}
+
+.rating__card-circle {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 40px;
+   width: 40px;
+   background-color: var(--dark-blue);
+   border-radius: 50%;
+}
+
+.rating__card-header {
+   color: var(--white);
+}
+
+.rating__card-scores{
+   display: flex;
+   justify-content: space-between;
+}
+
+.rating__card-score {
+   
 }
