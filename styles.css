@@ -12,13 +12,17 @@
    --very-dark-blue: hsl(216, 12%, 12%);
 }
 
+html {
+   font-size: 14px;
+}
+
 body {
    font-family: "Overpass", sans-serif;
    background-color: black;
 }
 
 body p {
-   font-size: 14px;
+   font-size: 1rem;
    color: var(--light-grey);
 }
 
@@ -32,9 +36,9 @@ main {
 .rating__card {
    display: flex;
    flex-direction: column;
-   gap: 25px;
+   gap: 1.9rem;
    width: 327px;
-   padding: 24px;
+   padding: 1.8rem;
    background-color: var(--very-dark-blue);
    border-radius: 15px;
 }
@@ -44,14 +48,14 @@ main {
    display: flex;
    align-items: center;
    justify-content: center;
-   height: 40px;
-   width: 40px;
+   height: 2.9rem;
+   width: 2.9rem;
    background-color: var(--dark-blue);
    border-radius: 50%;
 }
 
 .rating__card-score-btn {
-   font-size: 15px;
+   font-size: 1.1rem;
    color: var(--light-grey);
    border: none;
    cursor: pointer;
@@ -59,6 +63,7 @@ main {
 
 .rating__card-header {
    color: var(--white);
+   font-size: 2rem;
 }
 
 .rating__card-scores {
@@ -68,11 +73,46 @@ main {
 
 .rating__card-submit-btn {
    text-transform: uppercase;
-   padding: 10px 0 10px 0;
+   padding: .8rem 0 .8rem 0;
    background-color: var(--orange);
    color: var(--white);
    border-radius: 30px;
    font-size: 15px;
    cursor: pointer;
    border: none;
+}
+
+@media (min-width: 600px) {
+   .rating__card {
+      /* gap: 1.9rem; */
+      width: 412px;
+      padding: 1.9rem;
+      background-color: var(--very-dark-blue);
+      border-radius: 15px;
+   }
+
+   .rating__card-circle,
+   .rating__card-score-btn {
+      height: 3.7rem;
+      width: 3.7rem;
+   }
+
+   .rating__card-score-btn {
+      font-size: 1.5rem;
+   }
+
+   .rating__card-header {
+      color: var(--white);
+      font-size: 2.5rem;
+   }
+
+   body p {
+      font-size: 1.3rem;
+   }
+
+   .rating__card-submit-btn {
+      padding: 1rem 0 1rem 0;
+      border-radius: 30px;
+      font-size: 1.3rem;
+   }
 }
