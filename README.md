@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](/images/rating-desktop-screeshot/png)
+![](/images/rating-desktop-screeshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/jacksonwhiting/interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://rating-component-jwhiting.netlify.app/)
+- Solution URL: [github code](https://github.com/jacksonwhiting/interactive-rating-component)
+- Live Site URL: [Production site](https://rating-component-jwhiting.netlify.app/)
 
 ## My process
 
